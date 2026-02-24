@@ -1,0 +1,35 @@
+const projectsData = [
+    {
+        "title": "Slap Game!",
+        "description": "Bir youtuber'dan esinlendiğim tokat atma mekaniğini brainrot akımı ile birleştirdim. Güncel olarak +2.5k indirmeye ulaştı.",
+        "image": "assets/images/projects/SlapGameLogo.png",
+        "tag": "Mobile / Unity / C#",
+        "github": "",
+        "youtube": "https://www.youtube.com/watch?v=JQPMrrWOUPE",
+        "itchio": "",
+        "googleplay": "https://play.google.com/store/apps/details?id=com.lNycGames.SlapGame&hl=en_US",
+        "web": ""
+    },
+    {
+        "title": "Industrial Design Simulator",
+        "description": "Staj için geliştirdiğim simülatör oyunu. Hala geliştirmeye devam etmekteyim.",
+        "image": "assets/images/projects/Inds.png",
+        "tag": "Steam / Unity / C#",
+        "github": "",
+        "youtube": "https://www.youtube.com/watch?v=UxyotdwCEy4",
+        "itchio": "",
+        "googleplay": "",
+        "web": ""
+    },
+    {
+        "title": "Wordify (Yakında...)",
+        "description": "Gündelik hayatta en çok kullanılan ingilizce +5k kelimeyi pratik şekilde tekrar ederek öğrenmeyi amaçlayan bir uygulama.",
+        "image": "assets/images/projects/WordifyLogo.png",
+        "tag": "Mobile / Unity / C#",
+        "github": "",
+        "youtube": "https://www.youtube.com/watch?v=SHM2SCzop3M",
+        "itchio": "",
+        "googleplay": "https://play.google.com/store/apps/details?id=com.lNycGames.Wordify",
+        "web": ""
+    }
+];

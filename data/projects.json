@@ -1,0 +1,35 @@
+[
+    {
+        "title": "Slap Game!",
+        "description": "Bu proje hakkında kısa bir açıklama buraya gelecek. Projenin ne yaptığını ve öne çıkan özelliklerini anlat.",
+        "image": "assets/images/projects/SlapGameLogo.png",
+        "tag": "Unity / C#",
+        "github": "",
+        "youtube": "https://www.youtube.com/watch?v=JQPMrrWOUPE",
+        "itchio": "",
+        "googleplay": "https://play.google.com/store/apps/details?id=com.lNycGames.SlapGame&hl=en_US",
+        "web": ""
+    },
+    {
+        "title": "Örnek Oyun Projesi 2",
+        "description": "İkinci projenin açıklaması buraya gelecek. Oyun mekaniği ve kullanılan teknikler hakkında bilgi ver.",
+        "image": "assets/images/projects/proje2.png",
+        "tag": "Unreal Engine",
+        "github": "https://github.com/lNyctophilia",
+        "youtube": "",
+        "itchio": "",
+        "googleplay": "https://play.google.com",
+        "web": ""
+    },
+    {
+        "title": "Örnek Oyun Projesi 3",
+        "description": "Üçüncü projenin açıklaması. Mobil bir oyun projesi ve temel özellikleri hakkında bilgi.",
+        "image": "assets/images/projects/proje3.png",
+        "tag": "Mobile Game",
+        "github": "",
+        "youtube": "https://youtube.com",
+        "itchio": "",
+        "googleplay": "https://play.google.com",
+        "web": "https://example.com"
+    }
+]
