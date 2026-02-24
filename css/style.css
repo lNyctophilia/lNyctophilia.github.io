@@ -975,10 +975,17 @@ footer {
     order: -1;
   }
 
+  .projects-carousel {
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+
   .projects-scroll {
     gap: 24px;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
   }
 
   .project-card {
@@ -987,7 +994,12 @@ footer {
   }
 
   .carousel-btn {
-    display: none;
+    display: none !important;
+  }
+
+  .fade-in {
+    opacity: 1 !important;
+    transform: none !important;
   }
 
   .certificates-grid {
