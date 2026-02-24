@@ -976,12 +976,14 @@ footer {
   }
 
   .projects-scroll {
-    gap: 16px;
+    gap: 24px;
+    flex-direction: column;
+    align-items: center;
   }
 
   .project-card {
-    min-width: 280px;
-    max-width: 300px;
+    min-width: 100%;
+    max-width: 400px;
   }
 
   .carousel-btn {
