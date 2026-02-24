@@ -43,4 +43,36 @@ document.addEventListener('DOMContentLoaded', () => {
 
     lastScroll = currentScroll;
   });
+
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightboxImg');
+  const lightboxClose = document.getElementById('lightboxClose');
+
+  document.querySelectorAll('.certificate-card').forEach(card => {
+    card.addEventListener('click', () => {
+      const imgSrc = card.querySelector('.certificate-image').src;
+      lightboxImg.src = imgSrc;
+      lightbox.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    });
+  });
+
+  lightboxClose.addEventListener('click', () => {
+    lightbox.classList.remove('active');
+    document.body.style.overflow = '';
+  });
+
+  lightbox.addEventListener('click', (e) => {
+    if (e.target === lightbox) {
+      lightbox.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+      lightbox.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+  });
 });

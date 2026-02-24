@@ -444,6 +444,125 @@ section {
   font-weight: 500;
 }
 
+#certificates {
+  background: var(--bg-secondary);
+}
+
+.certificates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 28px;
+}
+
+.certificate-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+  overflow: hidden;
+  transition: var(--transition-normal);
+  cursor: pointer;
+}
+
+.certificate-card:hover {
+  border-color: var(--border-hover);
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-card-hover);
+}
+
+.certificate-card .certificate-image-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.certificate-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid var(--border-color);
+  transition: var(--transition-slow);
+}
+
+.certificate-card:hover .certificate-image {
+  transform: scale(1.03);
+}
+
+.certificate-info {
+  padding: 20px 24px;
+}
+
+.certificate-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.certificate-issuer {
+  color: var(--accent-secondary);
+  font-size: 0.88rem;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.certificate-date {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.92);
+  backdrop-filter: blur(8px);
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox.active {
+  display: flex;
+}
+
+.lightbox img {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: 12px;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.6);
+  animation: lightboxFadeIn 0.3s ease;
+}
+
+@keyframes lightboxFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 24px;
+  right: 32px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 2.5rem;
+  cursor: pointer;
+  transition: var(--transition-fast);
+  line-height: 1;
+  z-index: 10000;
+}
+
+.lightbox-close:hover {
+  color: var(--accent-primary);
+  transform: scale(1.15);
+}
+
 #education {
   background: var(--bg-primary);
 }
@@ -815,6 +934,10 @@ footer {
   }
 
   .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .certificates-grid {
     grid-template-columns: 1fr;
   }
 
