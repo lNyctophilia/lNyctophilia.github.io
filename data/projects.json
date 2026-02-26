@@ -1,9 +1,9 @@
 [
     {
         "title": "Slap Game!",
-        "description": "Bu proje hakkında kısa bir açıklama buraya gelecek. Projenin ne yaptığını ve öne çıkan özelliklerini anlat.",
+        "description": "Bir youtuber'dan esinlendiğim tokat atma mekaniğini brainrot akımı ile birleştirdim. Güncel olarak +2.5k indirmeye ulaştı.",
         "image": "assets/images/projects/SlapGameLogo.png",
-        "tag": "Unity / C#",
+        "tag": "Mobile / Unity / C#",
         "github": "",
         "youtube": "https://www.youtube.com/watch?v=JQPMrrWOUPE",
         "itchio": "",
@@ -11,25 +11,36 @@
         "web": ""
     },
     {
-        "title": "Örnek Oyun Projesi 2",
-        "description": "İkinci projenin açıklaması buraya gelecek. Oyun mekaniği ve kullanılan teknikler hakkında bilgi ver.",
-        "image": "assets/images/projects/proje2.png",
-        "tag": "Unreal Engine",
-        "github": "https://github.com/lNyctophilia",
-        "youtube": "",
+        "title": "Industrial Design Simulator",
+        "description": "Staj için geliştirdiğim simülatör oyunu. Hala geliştirmeye devam etmekteyim.",
+        "image": "assets/images/projects/Inds.png",
+        "tag": "Steam / Unity / C#",
+        "github": "",
+        "youtube": "https://www.youtube.com/watch?v=UxyotdwCEy4",
         "itchio": "",
-        "googleplay": "https://play.google.com",
+        "googleplay": "",
         "web": ""
     },
     {
-        "title": "Örnek Oyun Projesi 3",
-        "description": "Üçüncü projenin açıklaması. Mobil bir oyun projesi ve temel özellikleri hakkında bilgi.",
-        "image": "assets/images/projects/proje3.png",
-        "tag": "Mobile Game",
+        "title": "Wordify (Yakında...)",
+        "description": "Gündelik hayatta en çok kullanılan ingilizce +5k kelimeyi pratik şekilde tekrar ederek öğrenmeyi amaçlayan bir uygulama.",
+        "image": "assets/images/projects/WordifyLogo.png",
+        "tag": "Mobile / Unity / C#",
         "github": "",
-        "youtube": "https://youtube.com",
+        "youtube": "https://www.youtube.com/watch?v=SHM2SCzop3M",
         "itchio": "",
-        "googleplay": "https://play.google.com",
-        "web": "https://example.com"
+        "googleplay": "https://play.google.com/store/apps/details?id=com.lNycGames.Wordify",
+        "web": ""
+    },
+    {
+        "title": "Marble Race",
+        "description": "Ülkeleri yarıştırmak için bir yarış oyunu. Yeni oyun yapmaya başladığım projelerden bir tanesi.",
+        "image": "assets/images/projects/MarbleRaceLogo.png",
+        "tag": "Itch.Io / MOBILE",
+        "github": "",
+        "youtube": "",
+        "itchio": "https://lnyc.itch.io/marble-race-country",
+        "googleplay": "",
+        "web": ""
     }
 ]

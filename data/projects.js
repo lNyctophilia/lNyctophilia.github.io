@@ -3,7 +3,7 @@ const projectsData = [
         "title": "Slap Game!",
         "description": "Bir youtuber'dan esinlendiğim tokat atma mekaniğini brainrot akımı ile birleştirdim. Güncel olarak +2.5k indirmeye ulaştı.",
         "image": "assets/images/projects/SlapGameLogo.png",
-        "tag": "Mobile / Unity / C#",
+        "tag": "Play Store / MOBILE",
         "github": "",
         "youtube": "https://www.youtube.com/watch?v=JQPMrrWOUPE",
         "itchio": "",
@@ -14,7 +14,7 @@ const projectsData = [
         "title": "Industrial Design Simulator",
         "description": "Staj için geliştirdiğim simülatör oyunu. Hala geliştirmeye devam etmekteyim.",
         "image": "assets/images/projects/Inds.png",
-        "tag": "Steam / Unity / C#",
+        "tag": "Steam / PC",
         "github": "",
         "youtube": "https://www.youtube.com/watch?v=UxyotdwCEy4",
         "itchio": "",
@@ -25,11 +25,22 @@ const projectsData = [
         "title": "Wordify (Yakında...)",
         "description": "Gündelik hayatta en çok kullanılan ingilizce +5k kelimeyi pratik şekilde tekrar ederek öğrenmeyi amaçlayan bir uygulama.",
         "image": "assets/images/projects/WordifyLogo.png",
-        "tag": "Mobile / Unity / C#",
+        "tag": "Play Store / MOBILE",
         "github": "",
         "youtube": "https://www.youtube.com/watch?v=SHM2SCzop3M",
         "itchio": "",
         "googleplay": "https://play.google.com/store/apps/details?id=com.lNycGames.Wordify",
+        "web": ""
+    },
+    {
+        "title": "Marble Race",
+        "description": "Ülkeleri yarıştırmak için bir yarış oyunu. Yeni oyun yapmaya başladığım projelerden bir tanesi.",
+        "image": "assets/images/projects/MarbleRaceLogo.png",
+        "tag": "Itch.Io / MOBILE",
+        "github": "",
+        "youtube": "",
+        "itchio": "https://lnyc.itch.io/marble-race-country",
+        "googleplay": "",
         "web": ""
     }
 ];
