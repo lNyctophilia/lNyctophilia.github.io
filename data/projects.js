@@ -33,6 +33,17 @@ const projectsData = [
         "web": ""
     },
     {
+        "title": "Playlister",
+        "description": "Kolayca yeni şarkıcılar, şarkılar keşfetmeni ve hızlıca dinleyip liste hazırlamanı sağlayan ardından senkron şarkı sözleriyle beraber indirip yerel müzik kataloğuna ekleyen bir uygulama.",
+        "image": "assets/images/projects/PlaylisterLogo.png",
+        "tag": "PRIVATE / PYTHON",
+        "github": "",
+        "youtube": "https://youtu.be/jtIg3EKB8NQ",
+        "itchio": "",
+        "googleplay": "",
+        "web": ""
+    },
+    {
         "title": "Marble Race",
         "description": "Ülkeleri yarıştırmak için bir yarış oyunu. Yeni oyun yapmaya başladığım projelerden bir tanesi.",
         "image": "assets/images/projects/MarbleRaceLogo.png",
@@ -44,3 +55,5 @@ const projectsData = [
         "web": ""
     }
 ];
+
+
