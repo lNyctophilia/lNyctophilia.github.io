@@ -22,7 +22,7 @@ const projectsData = [
         "web": ""
     },
     {
-        "title": "Wordify (Yakında...)",
+        "title": "Wordify",
         "description": "Gündelik hayatta en çok kullanılan ingilizce +5k kelimeyi pratik şekilde tekrar ederek öğrenmeyi amaçlayan bir uygulama.",
         "image": "assets/images/projects/WordifyLogo.png",
         "tag": "Play Store / MOBILE",
@@ -36,8 +36,8 @@ const projectsData = [
         "title": "Playlister",
         "description": "Kolayca yeni şarkıcılar, şarkılar keşfetmeni ve hızlıca dinleyip liste hazırlamanı sağlayan ardından senkron şarkı sözleriyle beraber indirip yerel müzik kataloğuna ekleyen bir uygulama.",
         "image": "assets/images/projects/PlaylisterLogo.png",
-        "tag": "PRIVATE / PYTHON",
-        "github": "",
+        "tag": "PC / PYTHON",
+        "github": "https://github.com/lNyctophilia/Playlister",
         "youtube": "https://youtu.be/jtIg3EKB8NQ",
         "itchio": "",
         "googleplay": "",
