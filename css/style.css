@@ -98,6 +98,8 @@ nav .container {
   height: 22px;
   flex-shrink: 0;
   display: block;
+  position: relative;
+  top: 2px;
   transition: transform var(--transition-normal);
 }
 
