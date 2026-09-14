@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="cupGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.6" />
+    </linearGradient>
+  </defs>
+
+  <rect width="64" height="64" rx="16" fill="#0a0a12" />
+  <rect x="1" y="1" width="62" height="62" rx="15" fill="none" stroke="url(#borderGrad)" stroke-width="1.5" />
+
+  <!-- Handle (arkada) -->
+  <path d="M37 25h7a6 6 0 0 1 6 6v3a6 6 0 0 1-6 6h-7" fill="none" stroke="url(#cupGrad)" stroke-width="4" stroke-linecap="round" />
+
+  <!-- Cup Body -->
+  <path d="M15 21h28v14c0 6.5-5 11.5-11.5 11.5h-5C20 46.5 15 41.5 15 35V21z" fill="url(#cupGrad)" />
+
+  <!-- Saucer -->
+  <path d="M11 51h36" stroke="url(#cupGrad)" stroke-width="3.5" stroke-linecap="round" />
+</svg>
