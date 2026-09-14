@@ -664,6 +664,12 @@ section {
   border: 1px solid rgba(250, 204, 21, 0.3);
 }
 
+.badge-honor {
+  background: rgba(250, 204, 21, 0.12);
+  color: #facc15;
+  border: 1px solid rgba(250, 204, 21, 0.35);
+}
+
 #experience {
   background: var(--bg-primary);
 }
